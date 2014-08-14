@@ -1,0 +1,49 @@
+/*
+  Icon Font: fontcustom
+*/
+
+@font-face {
+  font-family: "fontcustom";
+  src: url("./fontcustom_1df1cde7a90a8267e09e7a2467ea6494.eot");
+  src: url("./fontcustom_1df1cde7a90a8267e09e7a2467ea6494.eot?#iefix") format("embedded-opentype"),
+       url("./fontcustom_1df1cde7a90a8267e09e7a2467ea6494.woff") format("woff"),
+       url("./fontcustom_1df1cde7a90a8267e09e7a2467ea6494.ttf") format("truetype"),
+       url("./fontcustom_1df1cde7a90a8267e09e7a2467ea6494.svg#fontcustom") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "fontcustom";
+    src: url("./fontcustom_1df1cde7a90a8267e09e7a2467ea6494.svg#fontcustom") format("svg");
+  }
+}
+
+[data-icon]:before { content: attr(data-icon); }
+
+[data-icon]:before,
+.icon-Diaspora-hand-drawn:before,
+.icon-diaspora_asterisk_arial:before,
+.icon-diaspora_asterisk_hand:before,
+.icon-diaspora_asterisk_roboto:before,
+.icon-starter_font:before {
+  display: inline-block;
+  font-family: "fontcustom";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.icon-Diaspora-hand-drawn:before { content: "\f100"; }
+.icon-diaspora_asterisk_arial:before { content: "\f101"; }
+.icon-diaspora_asterisk_hand:before { content: "\f102"; }
+.icon-diaspora_asterisk_roboto:before { content: "\f103"; }
+.icon-starter_font:before { content: "\f104"; }
